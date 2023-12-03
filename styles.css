@@ -1,0 +1,62 @@
+.image {
+    width: 400px;
+    height: 300px;
+   
+  }
+
+h1 {
+    color: rgb(39, 76, 213);
+    margin: 5px;
+    display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+   align-items: center;
+   background-color: rgb(26, 199, 199);
+   width: 40%;
+}
+
+button {
+  margin-top: 5px;  
+  width: 100%;
+  
+}
+
+.container {
+  border: 1px solid #ddd;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(187, 239, 187);
+  display: flex;
+}
+
+.item {
+  margin: 5px;
+  background-color: yellow;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(234, 146, 146);
+}
+
+.xx {
+  display: flex;
+  flex-direction: row;
+}
+
+.form {
+  /*Center the form on the page*/
+  margin: 0 auto;
+  width: 400px;
+  /* Form outline */
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 1em;
+  background-color: rgb(187, 239, 187);
+}
+.label {
+  /* Uniform size & alignment */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
