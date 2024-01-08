@@ -13,7 +13,9 @@ h1 {
    align-items: center;
    background-color: rgb(26, 199, 199);
    width: 40%;
+   position:-ms-page;
 }
+
 h2 {
   color: rgb(39, 76, 213);
     margin: 4px;
@@ -32,12 +34,14 @@ button {
   
 }
 
-.container {
+.xxcontainer {
   border: 1px solid #ddd;
   display: flex;
   flex-wrap: wrap;
   background-color: rgb(187, 239, 187);
   display: flex;
+  display: flex;
+  flex-direction: row;
 }
 
 .item {
