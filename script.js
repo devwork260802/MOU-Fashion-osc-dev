@@ -1,4 +1,4 @@
-var xxcontainer = document.getElementById('xxcontainer');
+const xxcontainer = document.getElementById('xxcontainer');
 xxcontainer.innerHTML = '';
 xxcontainer.id = 'newxxContainer';
 var itemsArray = [
