@@ -28,10 +28,9 @@ h2 {
 
 }
 
-button {
+a{
   margin-top: 5px;  
-  width: 100%;
-  
+  width: fit-content;
 }
 
 .xxcontainer {
